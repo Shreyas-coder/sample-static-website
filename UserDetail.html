@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#div1 {
+  float:left;width:50%;
+  color: red;
+} 
+#div2 {
+  float:left;width:50%;
+  color: red;
+} 
+#div3{
+color: black;
+ float:left;width:50%;
+  
+}
+#div4{
+color: black;
+ clear:both;
+  
+}
+#div5{
+ clear:both;
+  
+}
+img{
+float:left;width:50%;
+height:50%;
+
+}
+
+</style>
+</head>
+<body>
+<body>
+<div>
+<div id="div1">Every paragraph will be affected by the style1.
+<img id = "image1" src="shreyas-iyer.jpg"width="" height="600">
+</div>
+<div id="div2">
+<span>Name</span>
+<span>Shreyas</span>
+</div>
+
+<div id="div3">
+<span>Age</span>
+<span>24</span>
+</div>
+<div id="div5"></div>
+<div id="div4">
+
+<h2>Daily intake routine</h2>
+
+<button onclick="myFunction()">Try it</button>
+<table>
+  <tr>
+    <th>Time</th>
+    <th>Substance Name</th>
+    <th>Qantity</th>
+    <th>Approx Calorie Consume</th>
+  </tr>
+  <tr>
+    <td>9:00am</td>
+    <td>Green Tea</td>
+    <td>1cup</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>10:00am</td>
+    <td>Chapati+sabji</td>
+    <td>1+1</td>
+    <td>60</td>
+  </tr>
+
+</table>
+</div>
+</div>
+</body>
+<script>
+
+
+
+function myFunction() {
+  document.getElementById("image1").src = "virat.jpg";
+}
+
+
+
+
+
+
+</script>
+</html>

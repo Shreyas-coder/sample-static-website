@@ -1,0 +1,9 @@
+<html>
+<div id="splash">
+<img src="images/img/Splash_image1.jpg" alt="" id="mainImg">
+
+</div> 
+
+<div id="imglist">
+<a href="javascript:nextImage('mainImg')"><img src="images/next_img.png" alt=""></a>
+</html>
